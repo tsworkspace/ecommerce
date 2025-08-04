@@ -11,7 +11,7 @@ const Login = () => {
   const handleLogin = (e) => {
     e.preventDefault();
 
-    if (username === "admin" && password === "admin123") {
+    if (username === "orainge" && password === "orainge123") {
       localStorage.setItem("isAdmin", true); 
       navigate("/admin");
     } else {
