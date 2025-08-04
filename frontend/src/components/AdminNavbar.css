@@ -1,0 +1,48 @@
+.admin-navbar {
+  display: flex;
+  width: 97%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  background: linear-gradient(to right,black, purple,black);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.nav-left .brand,
+.nav-right .add-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.nav-center .panel-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.nav-left,
+.nav-center,
+.nav-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.nav-center {
+  justify-content: center;
+}
+
+.nav-left {
+  justify-content: flex-start;
+}
+
+.nav-right {
+  justify-content: flex-end;
+
+}
