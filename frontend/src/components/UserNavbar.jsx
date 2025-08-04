@@ -6,7 +6,7 @@ const UserNavbar = ({ searchTerm, setSearchTerm }) => {
   return (
     <nav className="user-navbar">
       <div className="nav-left">
-        <Link to="/user" className="logo">Shopy</Link>
+        <Link to="/user" className="logo">Orainge</Link>
       </div>
 
       <div className="nav-center">

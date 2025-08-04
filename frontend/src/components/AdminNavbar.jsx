@@ -6,7 +6,7 @@ const AdminNavbar = () => {
   return (
     <nav className="admin-navbar">
       <div className="nav-left">
-        <Link to="/admin" className="brand">Shopy</Link>
+        <Link to="/admin" className="brand">Orainge</Link>
       </div>
 
       <div className="nav-center">

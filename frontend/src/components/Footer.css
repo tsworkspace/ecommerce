@@ -1,7 +1,7 @@
 .footer {
-  background-color: #111;
+  background-color: orange;
   color: white;
-  padding: 24px 16px 12px; /* Reduced padding */
+  padding: 24px 16px 12px; 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -21,7 +21,7 @@
 
 .footer-top h4 {
   margin-bottom: 8px;
-  font-size: 16px; /* Slightly smaller */
+  font-size: 16px;
   color: #f0f0f0;
 }
 
