@@ -8,7 +8,7 @@ const ProductList = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get('https://ecommerce-backend-xdu8.onrender.com/products')
+    axios.get('https://ecommerce-back-ii19.onrender.com/products')
       .then(res => {
         const data = res.data.products || res.data;
         setProducts(data);
@@ -25,7 +25,7 @@ const ProductList = () => {
   const handleDelete = async (id) => {
     if (window.confirm("Are you sure you want to delete this product?")) {
       try {
-        await axios.get(`https://ecommerce-backend-xdu8.onrender.com/products/delete/${id}`);
+        await axios.get(`https://ecommerce-back-ii19.onrender.com/products/delete/${id}`);
         setProducts(products.filter(p => p._id !== id));
       } catch (err) {
         console.error("Delete failed", err);

@@ -12,7 +12,7 @@ const UserHome = ({ searchTerm }) => {
 
   useEffect(() => {
     axios
-      .get("https://ecommerce-backend-xdu8.onrender.com/products")
+      .get("https://ecommerce-back-ii19.onrender.com/products")
       .then((res) => setProductData(res.data.products))
       .catch((err) => console.log(err));
   }, []);

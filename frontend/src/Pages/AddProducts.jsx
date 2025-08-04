@@ -21,7 +21,7 @@ const AddProducts = () => {
     formData.append("price", price);
     formData.append("image", image); 
 
-    axios.post("https://ecommerce-backend-xdu8.onrender.com/products/add", formData)
+    axios.post("https://ecommerce-back-ii19.onrender.com/products/add", formData)
       .then((res) => {
         console.log("Product added:", res.data);
         navigate("/");

@@ -15,7 +15,7 @@ const EditProduct = () => {
   const [image, setImage] = useState(null);
 
   useEffect(() => {
-    axios.get(`https://ecommerce-backend-xdu8.onrender.com/products/${productId}`)
+    axios.get(`https://ecommerce-back-ii19.onrender.com/products/${productId}`)
       .then((res) => {
         const { title, description, price, category } = res.data.product;
         setProduct({ title, description, price, category });
@@ -46,7 +46,7 @@ const EditProduct = () => {
     }
 
     try {
-      await axios.post(`https://ecommerce-backend-xdu8.onrender.com/products/update/${productId}`, formData, {
+      await axios.post(`https://ecommerce-back-ii19.onrender.com/products/update/${productId}`, formData, {
         headers: { 'Content-Type': 'multipart/form-data' }
       });
       alert("Product updated successfully");

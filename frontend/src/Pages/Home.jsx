@@ -12,7 +12,7 @@ const Home = ({ searchTerm }) => {
 
   const getData = async () => {
     try {
-      const res = await axios.get("https://ecommerce-backend-xdu8.onrender.com/products");
+      const res = await axios.get("https://ecommerce-back-ii19.onrender.com/products");
       setProductData(res.data.products);
     } catch (err) {
       console.log(err);
