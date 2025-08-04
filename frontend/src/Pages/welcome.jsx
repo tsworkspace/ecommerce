@@ -7,8 +7,7 @@ export default function Welcome() {
   return (
     <div className="welcome-container">
       <div className="welcome-content">
-        <h1 className="welcome-title">Welcome to ShopEase</h1>
-        <p className="welcome-tagline">Your favorite place to buy awesome stuff!</p>
+        <h1 className="welcome-title">Come shop</h1>
         <button className="login-button" onClick={() => navigate("/user")}>
           Open
         </button>

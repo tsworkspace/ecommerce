@@ -5,7 +5,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  background: linear-gradient(to right, #6366f1, #8b5cf6); 
+  background: linear-gradient(to right,brown, pink); 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,9 +35,7 @@
   font-size: 1rem;
   font-weight: bold;
   border: none;
-  border-radius: 30px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
 .login-button:hover {
