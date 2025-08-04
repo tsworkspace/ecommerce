@@ -7,7 +7,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 12px 24px;
-  background: linear-gradient(to right,black, purple,black);
+  background: linear-gradient(to right,red,yellow);
   color: white;
   font-family: Arial, sans-serif;
 }
